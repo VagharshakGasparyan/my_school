@@ -1,0 +1,26 @@
+.multiplication-table, .multiplication-table-1{
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    user-select: none;
+}
+.multiplication-table-1{
+
+}
+.multiplication-table td, .multiplication-table th {
+    padding: 1vmin 0.1vmin;
+    border: 0.5vmin solid var(--c);
+    text-align: center;
+    cursor: pointer;
+}
+.multiplication-table-1 td, .multiplication-table-1 th {
+    padding: 0.1vmin 1.5vmin;
+    border: 0.5vmin solid var(--c);
+    border-bottom-color: var(--bd);
+    cursor: pointer;
+    font-size: 6vmin;
+    width: 50%;
+}
+.multiplication-table-1 tr:last-of-type td, .multiplication-table-1 tr:last-of-type th {
+    border-bottom-color: 0.5vmin solid var(--c);
+}
